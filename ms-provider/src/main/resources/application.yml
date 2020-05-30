@@ -1,0 +1,8 @@
+debug: trueserver:  port: 8077
+spring:  application:
+    name: "ms-provider"  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.75.181:3306/test?useSSL=false
+    username: root
+    password: Abcd+1234
+eureka:  client:    service-url:      defaultZone: http://localhost:7077/eureka/  instance:    instance-id: id-of-my-ms-provider    prefer-ip-address: true
