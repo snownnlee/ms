@@ -55,5 +55,6 @@
 		<module>ms-provider</module>
 		<module>ms-consumer</module>
 		<module>ms-eureka-registry</module>
+		<module>ms-eureka-registry2</module>
 	</modules>
 </project>

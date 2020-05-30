@@ -1,0 +1,13 @@
+server:
+  port: 7078
+
+spring:
+  application:
+    name: ms-registry
+
+eureka:  instance:    hostname: eureka.registry2
+    instance-id: ${eureka.instance.hostname}
+  client:#    register-with-eureka: false
+#    fetch-registry: false
+    service-url:      defaultZone: http://eureka.registry:7077/eureka/
+
