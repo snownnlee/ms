@@ -1,0 +1,12 @@
+server:
+  port: 9078
+
+spring:  application:    name: "ms-consumer"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.registry:7077/eureka/,http://eureka.registry2:7078/eureka/
+  instance:
+    instance-id: id-of-ms-consumer-feign
+    prefer-ip-address: true

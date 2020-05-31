@@ -53,6 +53,7 @@
 	<modules>
 		<module>ms-api</module>
 		<module>ms-consumer</module>
+		<module>ms-consumer-feign</module>
 		<module>ms-eureka-registry</module>
 		<module>ms-eureka-registry2</module>
 		<module>ms-provider</module>
