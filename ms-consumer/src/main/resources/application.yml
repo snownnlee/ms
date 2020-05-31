@@ -10,3 +10,5 @@ eureka:
   instance:
     instance-id: id-of-ms-consumer
     prefer-ip-address: true
+
+feign:  hystrix:    enabled: true
