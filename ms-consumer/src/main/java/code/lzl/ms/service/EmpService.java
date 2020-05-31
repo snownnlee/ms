@@ -11,7 +11,7 @@ import code.lzl.ms.entity.Employee;
 @Service
 public class EmpService {
 	
-	static final String EMP_SERVICE_ADDR = "http://localhost:8077";
+	static final String EMP_SERVICE_ADDR = "http://ms-provider";
 	
 	@Autowired
 	private RestTemplate restTemplate;
