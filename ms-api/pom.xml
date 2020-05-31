@@ -19,5 +19,10 @@
 			<artifactId>mybatis-plus-annotation</artifactId>
 			<version>3.3.2</version>
 		</dependency>
+		<!-- SpringCloud Feign -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
 	</dependencies>
 </project>
