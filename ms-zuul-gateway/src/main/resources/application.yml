@@ -1,0 +1,25 @@
+server:
+  port: 5077
+
+
+spring:
+  application:
+    name: "ms-zuul-gateway"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.registry:7077/eureka/,http://eureka.registry2:7078/eureka/
+  instance:
+    instance-id: id-of-ms-zuul-gateway
+    prefer-ip-address: true
+
+zuul:
+  ignored-services: "*"
+  routes:
+    route-provider:
+      path: /ms-provider/**
+      serviceId: ms-provider
+    route-consumer:
+      path: /ms-consumer/**
+      serviceId: ms-consumer

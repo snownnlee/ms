@@ -60,5 +60,6 @@
 		<module>ms-provider2</module>
 		<module>ms-provider3</module>
 		<module>ms-hystrix-dashboard</module>
-	</modules>
+        <module>ms-zuul-gateway</module>
+    </modules>
 </project>
