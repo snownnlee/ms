@@ -62,5 +62,6 @@
 		<module>ms-hystrix-dashboard</module>
 		<module>ms-zuul-gateway</module>
 		<module>ms-config-sever</module>
+		<module>ms-config-client</module>
 	</modules>
 </project>
