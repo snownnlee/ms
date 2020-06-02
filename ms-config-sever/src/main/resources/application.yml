@@ -1,0 +1,6 @@
+server:  port: 4077
+spring:
+  application:
+    name: ms-config-server
+info:
+  hello: 哈哈哈，I am ms-config-server!

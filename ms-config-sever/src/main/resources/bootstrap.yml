@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/snownnlee/my-config-repo.git
+          force-pull: true
+          username: snownnlee
+          password: Lzl779162

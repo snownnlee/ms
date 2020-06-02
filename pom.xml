@@ -61,5 +61,6 @@
 		<module>ms-provider3</module>
 		<module>ms-hystrix-dashboard</module>
 		<module>ms-zuul-gateway</module>
+		<module>ms-config-sever</module>
 	</modules>
 </project>
